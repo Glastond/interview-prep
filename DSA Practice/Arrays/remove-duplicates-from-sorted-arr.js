@@ -1,6 +1,7 @@
 // Given a sorted array of numbers return the maximum length to array with unique numbers
 // The operations should be done in place (no extra memory to be used)
 // The order of numbers should be maintained
+// https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
 // Brute force (with inbuilt functions)
 // const removeDuplicates = (nums) => {
