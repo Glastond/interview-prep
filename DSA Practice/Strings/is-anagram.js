@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/valid-anagram/description/
+
 const generateMap = (str) => {
   const map = {};
 
