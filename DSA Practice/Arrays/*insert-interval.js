@@ -19,7 +19,7 @@ const insert = (intervals, newInterval) => {
       // If the newInterval does not overlap and fits in this space
       res.push(newInterval);
       return res.concat(intervals.slice(i)); // If the new interval found its place then add the remaining elements as the array is sorted
-    } else if (newInterval[0] > intervals[i][1]) {
+     } else if (newInterval[0] > intervals[i][1]) {
       // If the newInterval does not overlap and fits in this space add to res
       res.push(intervals[i]);
     } else {
